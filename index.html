@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<link rel="stylesheet" href="css/main.css">
+
+		<title>MUSIC MASHUPS!</title>
+	</head>
+
+	<body>
+		<div id="container">
+			<section class="header">
+				<h2 class="header1">MUSIC MASH-UPS</h2>
+				<p class="description">Simply drag one element from the vocals section and one element from the beats section to create your mashup!</p>
+			</section>
+
+			<div id="dataBanks">
+				
+				<section class="vocals">
+					<canvas width=350 height=550 id="vocalsLibrary"></canvas>
+				</section>
+
+				<section class="musicPlayers">
+					<div id="topContain">
+						<canvas width=500 height=250 id="vocalsPlayer"></canvas>
+					</div>
+					<canvas width=500 height=250 id="beatsPlayer"></canvas>
+				</section>
+
+				<section class="beats">
+					<canvas width=350 height=550 id="beatsLibrary"></canvas>
+				</section>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
